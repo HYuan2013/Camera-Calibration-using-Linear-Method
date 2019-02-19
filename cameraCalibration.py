@@ -24,9 +24,9 @@ def readData(dataset):
     return np.asarray(res)
 
 #read data
-points2D = readData('/Users/YH/Desktop/CSCE867/proj1/2Dpoints.txt')
-points3D_part1 = readData('/Users/YH/Desktop/CSCE867/proj1/3Dpoints_part1.txt')
-points3D_part2 = readData('/Users/YH/Desktop/CSCE867/proj1/3Dpoints_part2.txt')
+points2D = readData('/Users/2Dpoints.txt')
+points3D_part1 = readData('/Users/3Dpoints_part1.txt')
+points3D_part2 = readData('/Users/3Dpoints_part2.txt')
 
 len(points2D[0])
 
